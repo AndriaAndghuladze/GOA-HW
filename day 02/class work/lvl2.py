@@ -13,4 +13,4 @@ hobby = "swimming"
 age = "13"
 favcar = "BMW M3 Competisen"
 
-print(name + surname + hobby + age + favcar )
+print(name +" "+ surname +" " + hobby +" "+ age +" " +favcar )
