@@ -1,4 +1,4 @@
-# #1
+# # #1
 import random
 
 secret_number = random.randint(1, 10)
@@ -14,7 +14,7 @@ while True:
         print("არასწორია, სცადე კიდევ ერთხელ.")
 
 
-#2
+# #2
 x=100
 
 while x > 0:
@@ -23,7 +23,21 @@ while x > 0:
 
 
 #3
-while input("შეიყვანეთ პაროლი: ") != "group55":
-    print("არასწორი პაროლი, სცადეთ ისევ.")
-    
-print("პაროლი სწორია! კეთილი იყოს თქვენი მობრძანება.")
+secret_password = "group 55"
+user_pass = " "
+
+
+tries = 3
+
+while tries > 0 and user_pass != secret_password:
+    user_pass = input("enter password +  ( you have " + str(tries) + " tries left" )
+
+    tries -=1
+
+    if user_pass == secret_password:
+       print("Accase grande") 
+
+    elif tries == 0:
+        print("you dont have any tries :(")  
+    else:
+        print("Access Denied, try again :)")
