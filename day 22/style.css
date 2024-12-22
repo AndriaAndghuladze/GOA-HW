@@ -1,0 +1,107 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #23242a;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #23242a;
+    overflow: hidden;
+}
+
+.box {
+    position: relative;
+    width: 380px;
+    height: 420px;
+    background: #1c1c1c;
+    border-radius: 80px;
+    overflow: hidden;
+  }
+  
+  
+  .box::before {
+ 
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(var(--color), transparent, #1fe851, #1fe83a);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+
+  }
+  
+  .box::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg, transparent, #9be81f, #e8981f);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+  }
+
+  .form {
+    position: absolute;
+    inset: 2px;
+    border-radius: 80px;
+    background: #282924;
+    z-index: 10;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .form h2 {
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  
+  .form .input {
+    text-align: left;
+  }
+  
+  .form .input .inputBox {
+    margin-top: 10px;
+  }
+  
+  .form .input .inputBox label {
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  
+  .form .input .inputBox input {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border: 2px solid #e9dce1;
+    outline: none;
+    padding: 5px 15px;
+    background: transparent; 
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 50px;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+  }
+
+  
+ 
+
+  

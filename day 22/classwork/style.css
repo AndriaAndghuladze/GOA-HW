@@ -1,0 +1,9 @@
+div{
+    color:red;
+    justify-content:center;
+}
+
+#q1{
+    color: red;
+   contain-intrinsic-block-size: 5vb;
+}
