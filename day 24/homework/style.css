@@ -1,0 +1,37 @@
+button{
+    color: rgb(6, 6, 6);
+    font-size: larger;
+    background-color: #4b007a;
+    text-align: center;
+}
+
+.h1{
+    background-color: #c39622;
+        color: rgb(0, 0, 0);
+        padding: 15px 0;
+        text-align: center;
+}
+
+
+header {
+        background-color: #604caf;
+        color: white;
+        padding: 15px 0;
+        text-align: center;
+}
+
+.div{
+    justify-content: center;
+    color: gray;
+}
+
+.h1{
+    background-color: #c39622;
+        color: rgb(0, 0, 0);
+        padding: 15px 0;
+        text-align: center;
+}
+
+.p{
+    font-style: italic;
+}

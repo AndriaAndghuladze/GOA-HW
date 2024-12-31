@@ -1,0 +1,5 @@
+p{
+        color: rgb(255, 0, 0); /* განსაზღვრავს ტექსტის ფერს */
+        font-size: 18px; /* განსაზღვრავს ტექსტის ზომას */
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* განსაზღვრავს ტექსტის შრიფტს */
+}
