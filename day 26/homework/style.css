@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+
+header{
+    color: rgb(129, 244, 47);
+    text-align: center;
+}
+
+
+button{
+    border-radius: 10px;
+    color:rgb(0, 80, 5) ;
+}
+
+#Meniu{
+    text-align: center;
+    color: rgb(129, 244, 47);
+}
+
+nav{
+    text-align: center;
+    color: rgb(129, 244, 47);
+    
+}
+
+main{
+    text-align: center;
+    color: rgb(129, 244, 47);
+    text-shadow: 10px, 5px, 5px rgb(178, 154, 89);
+}
+
+footer{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
