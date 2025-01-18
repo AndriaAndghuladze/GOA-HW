@@ -1,0 +1,22 @@
+.first{
+    width: 300px;
+    height: 300px;
+    color: red;
+    padding: 20px 0 50px 0;
+    border-radius: 10px;
+    border: 15px;
+    border-color: blue;
+    margin: 200px 300px 50px 0;
+
+}
+
+.second{
+    width: 300px;
+    height: 300px;
+    color: blue;
+    padding: 20px 0 50px 0;
+    border-radius: 10px;
+    border: 15px;
+    border-color: red;
+    margin: 200px 300px 50px 0;
+}
