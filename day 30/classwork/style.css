@@ -1,0 +1,19 @@
+.flagtxt{
+    font-family: cursive;
+}
+
+.flag{
+    border: 3em;
+    border-radius: 10px;
+    background-image: url(e.png);
+    background-image:url(u.png) ;
+    background-image:url(uk.png) ;
+    background-image:url(uru.png) ;
+    background-image:url(us.png) ;
+    background-image:url(uzb.png) ;
+    background-image:url(va.png) ;
+    background-image:url(ven.png) ;
+}
+
+
+
