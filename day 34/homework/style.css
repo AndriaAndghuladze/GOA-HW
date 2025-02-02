@@ -1,0 +1,16 @@
+body{
+    padding: 10px;
+    align-items: center;
+}
+
+
+
+
+th{
+    color: white;
+    background-color: plum;
+}
+
+tr:nth-child(even){
+    background-color: rgb(171, 173, 175);
+}

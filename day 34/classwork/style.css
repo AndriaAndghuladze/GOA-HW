@@ -1,0 +1,30 @@
+.style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    height: 170px;
+    width: 170px;
+    background-color: red;
+}
+
+.style :hover{
+    color: blue;
+    border-radius: 50%;
+    border: 3px black;
+}
+
+.style:link{
+    color: yellowgreen;
+
+}
+    
+.style:visited{
+    color: black;
+}
+
+.style:active{
+    color: aqua;
+    align-items: center;
+}
+
