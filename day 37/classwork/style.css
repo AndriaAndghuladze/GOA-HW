@@ -1,0 +1,39 @@
+body {
+    width: 400px;
+    height: 400px;
+    border: 2px;
+    border-color: gray;
+    margin: 10px;
+}
+
+.heade{
+    width:400px;
+    background-color: rgb(0,0,0, 0.8);
+    position: fixed;
+}
+
+.section{
+    position:static;
+    background-color: rgba(155, 74, 74, 0.8);
+}
+
+.section2{
+    position: static;
+    top: 0px;
+    background-color: rgba(159, 15, 255, 0.8);
+}
+
+.section3{
+    position: absolute;
+    background-color: rgba(224, 245, 40, 0.8);
+}
+
+.section4{
+    position: sticky;
+    top: 100px;
+}
+
+.footer{
+    position: fixed;  
+    bottom: 0;
+}

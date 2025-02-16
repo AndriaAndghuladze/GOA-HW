@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 8%);
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+h3 {
+    color: hsl(75, 94%, 57%);
+}
+
+h4 {
+    color: hsl(0, 0%, 100%);
+}
+
+.header {
+    height: 550px;
+    width: 300px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.main div {
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    margin: 5px;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main div:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
