@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 300px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.txt h1 {
+    font-size: 1.5rem;
+    margin: 15px 0 10px;
+}
+
+.txt p {
+    color: hsl(215, 51%, 70%);
+    font-size: 1rem;
+    margin: 0 0 15px;
+}
+
+.eth {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.eth .right, .eth .left {
+    display: flex;
+    align-items: center;
+}
+
+.eth img {
+    margin-right: 5px;
+}
+
+.eth .right p {
+    color: hsl(178, 100%, 50%);
+    font-weight: bold;
+}
+
+.eth .left p {
+    color: hsl(215, 51%, 70%);
+}
+
+hr {
+    border: 1px solid hsl(215, 32%, 27%);
+    margin: 15px 0;
+}
+
+.last {
+    display: flex;
+    align-items: center;
+}
+
+.last img {
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.last p {
+    color: hsl(215, 51%, 70%);
+    font-size: 0.9rem;
+}
+
+.last p span {
+    color: hsl(215, 51%, 70%);
+}

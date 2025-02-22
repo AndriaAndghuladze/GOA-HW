@@ -1,0 +1,38 @@
+.user-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .appearance {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: lightblue;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .backdrop-filter {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+  
+  .clip-path {
+    width: 200px;
+    height: 200px;
+    background: lightcoral;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+  }
+  
+  .text-stroke {
+    font-size: 24px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    text-stroke: 2px black;
+  }

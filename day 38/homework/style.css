@@ -1,0 +1,43 @@
+.inline-example span {
+    font-weight: bold;
+    color: red;
+  }
+  
+  .inline-example a {
+    background: yellow;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .block-example div {
+    background: lightblue;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .block-example p {
+    background: lightgreen;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .inline-block-example button {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    background: lightblue;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .inline-block-example .box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: lightcoral;
+    margin-top: 10px;
+  }
+
+
+  

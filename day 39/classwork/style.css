@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(131, 124, 124);
+    transition: transform 3s;
+}
+
+div:hover {transform: rotate(180deg) translateX(150px) scale(2) skew(30deg);
+}
+    
