@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "images",
+			"path": "../../../chat-app-css-illustration-master/images"
+		},
+		{
+			"name": "homework",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "homework"
+	}
+}
