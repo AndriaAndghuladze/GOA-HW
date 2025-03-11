@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 350px; 
+}
+
+
+:root {
+    --color-primary: #3498db;
+    --color-secondary: #830000;
+    --color-tertiary: #5bceb5;
+    --bg-color-primary: #ecf0f1;
+    --bg-color-secondary: #bdc3c7;
+    --bg-color-tertiary: #34495e;
+    --font-size-large: 24px;
+    --font-size-medium: 18px;
+    --font-size-small: 14px;
+    --letter-spacing-wide: 2px;
+    --letter-spacing-normal: 1px;
+    --letter-spacing-narrow: 0.5px;
+    --padding-default: 10px;
+    --margin-default: 20px;
+    --transform-rotate: rotate(-5deg);
+    --transition-default: all 0.3s ease;
+}
+
+h1 {
+    color: var(--color-primary);
+    background-color: var(--bg-color-primary);
+    font-size: var(--font-size-large);
+    letter-spacing: var(--letter-spacing-wide);
+    display: block;
+    padding: var(--padding-default);
+    margin: var(--margin-default);
+    position: relative;
+    transform: var(--transform-rotate);
+    transition: var(--transition-default);
+}
+
+button {
+    color: var(--color-secondary);
+    background-color: var(--bg-color-secondary);
+    font-size: var(--font-size-medium);
+    letter-spacing: var(--letter-spacing-normal);
+    display: inline-block;
+    padding: var(--padding-default);
+    margin: var(--margin-default);
+    position: relative;
+    transform: var(--transform-rotate);
+    transition: var(--transition-default);
+}
+
+span {
+    color: var(--color-tertiary);
+    background-color: var(--bg-color-tertiary);
+    font-size: var(--font-size-small);
+    letter-spacing: var(--letter-spacing-narrow);
+    display: inline;
+    padding: var(--padding-default);
+    margin: var(--margin-default);
+    position: relative;
+    transform: var(--transform-rotate);
+    transition: var(--transition-default);
+}
