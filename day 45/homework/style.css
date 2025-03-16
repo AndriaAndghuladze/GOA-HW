@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Spartan', sans-serif; /* Add this font via Google Fonts if needed */
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(300, 43%, 22%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-image: url('images/bg-pattern-top-desktop.svg'), url('images/bg-pattern-bottom-desktop.svg');
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+  }
+  
+  /* Header Styling */
+  .header {
+    text-align: center;
+    max-width: 500px;
+    margin-bottom: 40px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: hsl(300, 43%, 22%);
+  }
+  
+  .header p {
+    color: hsl(303, 10%, 53%);
+    line-height: 1.5;
+  }
+  
+  /* Ratings Styling */
+  .reat, .reat1, .reat2 {
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    max-width: 450px;
+  }
+  
+  .reat img, .reat1 img, .reat2 img {
+    width: 16px;
+    margin-right: 5px;
+  }
+  
+  .reat p, .reat1 p, .reat2 p {
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    margin-left: 20px;
+  }
+  
+  /* Offset the ratings for visual appeal */
+  .reat1 {
+    margin-left: 50px;
+  }
+  
+  .reat2 {
+    margin-left: 100px;
+  }
+  
+  /* Testimonials Styling */
+  .first, .second, .therd {
+    background-color: hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 350px;
+    margin-bottom: 20px;
+  }
+  
+  .first img, .second img, .therd img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .first .h, .second .h, .therd .h {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  
+  .first .sec, .second .sec, .therd .sec {
+    color: hsl(333, 80%, 67%);
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+  
+  .first p:last-child, .second p:last-child, .therd p:last-child {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  
+  /* Layout Adjustments */
+  @media (min-width: 768px) {
+    body {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 50px;
+    }
+  
+    .header {
+      text-align: left;
+      flex: 1;
+      margin-right: 50px;
+    }
+  
+    .reat, .reat1, .reat2 {
+      width: 450px;
+    }
+  
+    .first, .second, .therd {
+      flex: 1;
+      margin: 0 15px;
+    }
+  
+    .second {
+      margin-top: 20px;
+    }
+  
+    .therd {
+      margin-top: 40px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .reat1 {
+      margin-left: 0;
+    }
+  
+    .reat2 {
+      margin-left: 0;
+    }
+  }
