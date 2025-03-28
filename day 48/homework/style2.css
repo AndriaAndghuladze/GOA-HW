@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    " sec1 sec1  "
+    " sec2 sec3 "
+    " sec4 sec4  "
+    ;
+
+    height: 100vh;
+    grid-template-rows: 170px 1fr 170px  ;
+    grid-template-columns: 650px 1fr  ;
+    gap: 15px;
+
+    background-color: rgb(0, 0, 0);
+
+
+}
+
+.sec1{
+    grid-area: sec1;
+
+    background-color: rgb(223, 85, 51);
+}
+
+.sec2{
+    grid-area: sec2;
+
+    background-color: rgb(12, 128, 148);
+}
+
+.sec3{
+    grid-area: sec3;
+
+    background-color: rgb(219, 51, 0);
+}
+
+.sec4{
+    grid-area: sec4;
+
+    background-color: rgb(14, 191, 204);
+}
