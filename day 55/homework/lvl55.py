@@ -52,3 +52,12 @@ elif not any(c.isdigit() for c in st):
 
 else:
     return True
+
+#5
+
+#Write a function that returns the total surface area and volume of a box.
+def get_size(w,h,d):
+    
+    size = 2 * (w * h + h * d + w * d)
+    size2 = w * h * d
+    return [size , size2]
