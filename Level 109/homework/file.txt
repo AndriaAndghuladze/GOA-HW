@@ -1,0 +1,17 @@
+JSX არ არის ჩვეულებრივი HTML.
+JSX არის JavaScript-ის სინტაქსური გაფართოება, სადაც HTML-ის მსგავსი სტრუქტურა წერია JS-ის შიგნით.
+
+export default function App() {
+  return (
+    <div>
+      <h1>ეს არის H1 ელემენტი</h1>
+      <h2>ეს არის H2 ელემენტი</h2>
+      <p>ეს არის Paragraph ტექსტი</p>
+      <button>Button 1</button>
+      <button>Button 2</button>
+      <button>Button 3</button>
+
+      
+    </div>
+  );
+}
