@@ -24,7 +24,6 @@ export default function App() {
       <br />
       <br />
 
-
       <p>{2+3}</p>
       <p>{2+5}</p>
       <p>{2+88}</p>
@@ -50,11 +49,9 @@ export default function App() {
       {/* class გამოიყენება HTML and JS, className JSX */}
       {/* Self-closing tags მარტო ერთი თგია როგორიცაა <br /> */}
       {/* Curly braces გამოიყენება მათემატიკური ოპერაციების შესასრულებლად */}
-      
 
-      
-    
+
     </div>
-    
+
   )
 }
